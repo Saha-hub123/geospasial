@@ -1,69 +1,58 @@
-# 🗺️ GeoJSON di Peta + CrootJS (SIG Kampus ULBI)
+# 🗺️ Peta Kampus ULBI (SIG CrootJS)
 
-Project website peta interaktif Sistem Informasi Geografis (SIG) Kampus **ULBI (Universitas Logistik dan Bisnis Internasional)** Bandung. Project ini murni dibuat menggunakan modul standar resmi **[CrootJS](https://croot.js.org/)** (`map.js`, `geo.js`, `element.js`) tanpa library pihak ketiga lainnya (tanpa Leaflet, Mapbox, Bootstrap, atau dependencies tambahan).
-
-Website ini siap langsung dipublikasikan ke **GitHub Pages**.
+Website Sistem Informasi Geografis (SIG) Kampus **ULBI (Universitas Logistik dan Bisnis Internasional)** Bandung dengan tampilan modern dan minimalis, dibuat murni menggunakan modul standar resmi **[CrootJS](https://croot.js.org/)** (`map.js`, `geo.js`, `element.js`) tanpa ketergantungan library peta eksternal seperti Leaflet ataupun CSS pihak ketiga.
 
 ---
 
-## ⚡ Maps Without a Map Library
+## ⚡ Fitur & Arsitektur CrootJS
 
-Mengikuti filosofi dan standar resmi CrootJS:
-- **`geo.js`**: Mengambil dan memvalidasi data GeoJSON dari URL atau file lokal, mengembalikan `FeatureCollection`, menghitung titik tengah (`getCenter`), dan membaca kunci atribut (`getPropertyKeys`).
-- **`map.js`**: Merender peta *slippy map* dari nol (~11 KB gzipped) dengan tile OpenStreetMap, menggambar GeoJSON sebagai SVG vektor interaktif, menangani *pan*, *pinch-zoom*, popup, dan klik koordinat (`onMapClick`).
-- **`element.js`**: Helper DOM native (`onClick`, `onChange`, `getValue`, `setInnerText`, `container`).
-- **Murni ES6+ Module**: Tanpa bundler, tanpa npm, diimpor langsung via CDN jsDelivr.
-
----
-
-## 📂 Struktur Berkas Data GeoJSON
-
-1. **`714240013_mohammadisa_sig_mapulbi.geojson`** (Data Awal / Original)
-   - Berisi 20 fitur awal kampus ULBI (16 poligon bangunan, 3 poliline jalan, 1 point lokasi).
-
-2. **`update.geojson`** (Data Update / Diperkaya)
-   - Berisi **75 fitur geospasial** di sekitar kampus ULBI Bandung:
-     - 🏛️ **25 Poligon Bangunan** *(minimal 20 terpenuhi)*
-     - 🛣️ **25 Polyline Jalan / Jalur** *(minimal 20 terpenuhi)*
-     - 📍 **25 Point / Titik Fasilitas POI** *(minimal 20 terpenuhi)*
-   - File ini dimuat secara default di dalam website melalui input URL `./update.geojson`.
+- **`geo.js`**: Memuat, memvalidasi data GeoJSON dari URL atau file lokal, mengekstrak properti (`getPropertyKeys`), dan menghitung titik tengah spasial (`getCenter`).
+- **`map.js`**: Peta slippy map super ringan (~11 KB gzipped) berbasis tile OpenStreetMap dan render layer GeoJSON langsung sebagai elemen SVG interaktif (*pan*, *pinch-zoom*, popup, dan klik koordinat).
+- **`element.js`**: Helper manipulasi DOM native (`onClick`, `onChange`, `getValue`, `setInnerText`, `container`).
+- **Modern Minimalist UI**: Antarmuka bersih, elegan, dan fungsional tanpa framework CSS berat (murni Vanilla CSS).
 
 ---
 
-## 🚀 Panduan Publikasi ke GitHub Pages
+## 📂 Data Geospasial Tunggal
 
-1. **Inisialisasi Git & Commit**:
+Semua data tersimpan rapi hanya dalam 1 file GeoJSON tunggal:
+- **`714240013_mohammadisa_sig_mapulbi.geojson`** (Total **60 fitur**):
+  - 🏛️ **20 Poligon Bangunan**: Gedung Rektorat, Vokasi, FLTB, Masjid Nurul Ilmi, Asrama Putra Raflesia, Asrama Putri Anggrek & Gandaria, GOR STIMLOG & Poltekpos, Auditorium, Perpustakaan, Pasar Sarijadi, Student Center, Pos Satpam, dll.
+  - 🛣️ **20 Polyline Jalan / Jalur**: Jl. Raya Sari Asih, Boulevard Utama Kampus, Jl. Lingkar Barat/Timur, Jl. Sariasih 2 & 3, Jl. Tirtasari 1-3, Jl. Sarimanah 1-2, Jl. Sarijadi Raya, Jl. Sarimanis, dll.
+  - 📍 **20 Point Fasilitas / POI**: Kampus ULBI, Masjid Al-Falah, Puskesmas Sarijadi, Masjid Baitul A'la, Kosan Mahasiswa, Donsu, D'Okeh, Labbaik Chicken, Mixue, Graha Sarimanah, SD, Rumah Bersalin Muhammadiyah, Al Azhar, Polban, AHASS, Lapang Voli, Warnet, Laundry, dll.
+
+Setiap fitur memiliki atribut lengkap dan seragam:
+- `name` (Nama Objek)
+- `kategori` (Kategori Fasilitas / Fungsi)
+- `tipe` (Tipe Spesifik Objek)
+- `keterangan` (Deskripsi / Catatan Lapangan)
+
+---
+
+## 🚀 Publikasi ke GitHub Pages
+
+Proyek ini menggunakan file statis murni sehingga dapat langsung diaktifkan di GitHub Pages:
+
+1. **Commit & Push ke GitHub**:
    ```bash
    git init
    git add .
-   git commit -m "feat: peta geojson ulbi dengan crootjs"
+   git commit -m "feat: peta sig ulbi modern minimalis crootjs"
    git branch -M main
-   ```
-
-2. **Hubungkan dan Push ke Repositori GitHub**:
-   ```bash
    git remote add origin https://github.com/<USERNAME>/<REPO>.git
    git push -u origin main
    ```
 
-3. **Aktifkan GitHub Pages**:
-   - Buka repositori di GitHub.
-   - Masuk ke menu **Settings** > **Pages**.
-   - Pada bagian **Build and deployment** > **Branch**, pilih `main` dan folder `/ (root)`.
-   - Klik **Save**.
-   - Website akan aktif di `https://<USERNAME>.github.io/<REPO>/`.
+2. **Aktifkan GitHub Pages**:
+   - Buka repositori GitHub > **Settings** > **Pages**.
+   - Di bagian **Branch**, pilih `main` dan folder `/ (root)`, lalu klik **Save**.
+   - Website akan online di `https://<USERNAME>.github.io/<REPO>/`.
 
 ---
 
 ## 💻 Pengujian Lokal
 
-Jalankan menggunakan web server lokal sederhana (karena ES Module memerlukan protokol HTTP/HTTPS):
-- **Node.js**:
-  ```bash
-  npx serve .
-  ```
-- **Python**:
-  ```bash
-  python -m http.server 8000
-  ```
+Gunakan web server lokal sederhana:
+- **Node.js**: `npx serve .`
+- **Python**: `python -m http.server 8000`
 - **VS Code**: Klik kanan `index.html` > **Open with Live Server**.

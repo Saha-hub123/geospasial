@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GeoJSON di Peta + CrootJS</title>
+  <title>Peta Geospasial ULBI - CrootJS</title>
   <link rel="stylesheet" href="style.css">
   <script type="module" src="index.js"></script>
 </head>
-
 <body>
 
-  <main class="card">
-    <h1>GeoJSON di Peta + CrootJS</h1>
-    <p class="lead">
-      <code>geo.js</code> mengambil dan memvalidasi datanya, <code>map.js</code>
-      menggambarnya di peta — tanpa library peta eksternal.
-    </p>
+  <div class="app-layout">
+    <!-- Header Minimalis -->
+    <header class="app-header">
+      <div class="header-badge">SIG ULBI • CrootJS</div>
+      <h1>Peta Kampus ULBI Bandung</h1>
+      <p class="subtitle">
+        Visualisasi data geospasial dengan <code>map.js</code> dan <code>geo.js</code> — tanpa library peta eksternal.
+      </p>
+    </header>
 
-    <section class="demo">
-      <h2>1. Dari URL</h2>
-      <p><code>getGeoJSON()</code> — link halaman file GitHub (<code>/blob/</code>) boleh dipakai langsung.</p>
-      <div class="input-row">
-        <input id="url" type="url" value="./714240013_mohammadisa_sig_mapulbi.geojson">
-        <button id="btn-load">Muat</button>
-      </div>
-    </section>
+    <!-- Kontainer Kartu Utama -->
+    <main class="main-card">
+      
+      <!-- Toolbar Sumber Data -->
+      <section class="control-panel">
+        <div class="panel-row">
+          <div class="url-input-group">
+            <span class="input-icon">🔗</span>
+            <input id="url" type="url" value="./714240013_mohammadisa_sig_mapulbi.geojson" placeholder="Masukkan URL GeoJSON...">
+            <button id="btn-load" type="button">Muat Data</button>
+          </div>
+          
+          <div class="file-upload-group">
+            <label for="file" class="file-label">
+              <span class="file-icon">📁</span>
+              <span>Pilih File Lokal</span>
+            </label>
+            <input id="file" type="file" accept=".geojson,.json">
+          </div>
+        </div>
 
-    <section class="demo">
-      <h2>2. Dari file lokal</h2>
-      <p><code>readGeoJSONFile()</code> membaca file yang dipilih, tanpa mengunggahnya ke mana pun.</p>
-      <input id="file" type="file" accept=".geojson,.json">
-    </section>
+        <!-- Status Bar Informasi Data -->
+        <output id="status" class="status-bar">Memuat data geospasial...</output>
+      </section>
 
-    <output id="status" class="result">Belum ada data.</output>
+      <!-- Peta Interaktif CrootJS -->
+      <section class="map-section">
+        <div id="map" class="map-view"></div>
+        <div class="map-info-bar">
+          <span class="map-info-label">📍 Titik Koordinat:</span>
+          <output id="click" class="map-info-value">Klik pada peta atau fitur objek untuk melihat koordinat.</output>
+        </div>
+      </section>
 
-    <div id="map" class="map"></div>
+      <!-- Tabel Data Objek Geospasial -->
+      <section class="table-section">
+        <div class="table-header">
+          <h2>Daftar Data Geospasial</h2>
+          <span class="table-subtext">Fitur bangunan, jalur jalan, dan titik fasilitas kampus</span>
+        </div>
 
-    <section class="demo">
-      <h2>3. Klik peta</h2>
-      <p><code>onMapClick()</code> memberi koordinat titik yang diklik, dan fiturnya kalau ada yang kena.</p>
-      <output id="click" class="result">Belum ada klik.</output>
-    </section>
+        <div class="table-container">
+          <table class="minimal-table">
+            <thead id="head"></thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </section>
 
-    <div class="table-wrap">
-      <table>
-        <thead id="head"></thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-  </main>
+    </main>
+
+    <!-- Footer Minimalis -->
+    <footer class="app-footer">
+      <p>Universitas Logistik dan Bisnis Internasional (ULBI) • Didukung oleh <a href="https://croot.js.org/" target="_blank" rel="noopener">CrootJS</a></p>
+    </footer>
+  </div>
 
 </body>
-
 </html>

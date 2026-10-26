@@ -1,1710 +1,1809 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575541,
-                            -6.873691
-                        ],
-                        [
-                            107.575507,
-                            -6.873866
-                        ],
-                        [
-                            107.575821,
-                            -6.873925
-                        ],
-                        [
-                            107.575853,
-                            -6.873746
-                        ],
-                        [
-                            107.575541,
-                            -6.873691
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung rekrorat",
-                "category": "Bangunan Kampus",
-                "tipe": "Gedung Kampus",
-                "keterangan": "Fasilitas di lingkungan kampus ULBI Bandung."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575253,
-                            -6.873216
-                        ],
-                        [
-                            107.575226,
-                            -6.873588
-                        ],
-                        [
-                            107.575791,
-                            -6.873625
-                        ],
-                        [
-                            107.575814,
-                            -6.873265
-                        ],
-                        [
-                            107.575253,
-                            -6.873216
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung vokasi",
-                "category": "Bangunan Kampus",
-                "tipe": "Gedung Perkuliahan & Praktikum",
-                "keterangan": "Gedung perkuliahan, laboratorium, dan praktikum program studi."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576162,
-                            -6.872481
-                        ],
-                        [
-                            107.5761,
-                            -6.872945
-                        ],
-                        [
-                            107.576447,
-                            -6.872999
-                        ],
-                        [
-                            107.576512,
-                            -6.872541
-                        ],
-                        [
-                            107.576162,
-                            -6.872481
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung FLTB",
-                "category": "Bangunan Kampus",
-                "tipe": "Gedung Perkuliahan & Praktikum",
-                "keterangan": "Gedung perkuliahan, laboratorium, dan praktikum program studi."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575896,
-                            -6.872941
-                        ],
-                        [
-                            107.575967,
-                            -6.872952
-                        ],
-                        [
-                            107.575975,
-                            -6.872889
-                        ],
-                        [
-                            107.576013,
-                            -6.872883
-                        ],
-                        [
-                            107.576037,
-                            -6.87279
-                        ],
-                        [
-                            107.576064,
-                            -6.872763
-                        ],
-                        [
-                            107.576105,
-                            -6.872677
-                        ],
-                        [
-                            107.57601,
-                            -6.872631
-                        ],
-                        [
-                            107.575968,
-                            -6.872716
-                        ],
-                        [
-                            107.575941,
-                            -6.872768
-                        ],
-                        [
-                            107.575915,
-                            -6.872861
-                        ],
-                        [
-                            107.575911,
-                            -6.87288
-                        ],
-                        [
-                            107.575896,
-                            -6.872941
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "masjid nurul ilmi",
-                "category": "Bangunan Kampus",
-                "tipe": "Tempat Ibadah",
-                "keterangan": "Masjid Nurul Ilmi pusat kegiatan ibadah sivitas akademika ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576811,
-                            -6.872177
-                        ],
-                        [
-                            107.576747,
-                            -6.872626
-                        ],
-                        [
-                            107.577074,
-                            -6.87268
-                        ],
-                        [
-                            107.577135,
-                            -6.872227
-                        ],
-                        [
-                            107.576811,
-                            -6.872177
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung asrama putra raflesia",
-                "category": "Bangunan Kampus",
-                "tipe": "Asrama Mahasiswa",
-                "keterangan": "Gedung asrama tempat tinggal mahasiswa/i di kawasan kampus ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.57602,
-                            -6.873283
-                        ],
-                        [
-                            107.575971,
-                            -6.873659
-                        ],
-                        [
-                            107.576225,
-                            -6.873702
-                        ],
-                        [
-                            107.576278,
-                            -6.87332
-                        ],
-                        [
-                            107.57602,
-                            -6.873283
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung auditorium",
-                "category": "Bangunan Kampus",
-                "tipe": "Fasilitas Pertemuan",
-                "keterangan": "Ruang pertemuan, seminar wisuda, dan pentas seni kampus."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576536,
-                            -6.873159
-                        ],
-                        [
-                            107.576507,
-                            -6.873439
-                        ],
-                        [
-                            107.576818,
-                            -6.873474
-                        ],
-                        [
-                            107.576849,
-                            -6.873203
-                        ],
-                        [
-                            107.576536,
-                            -6.873159
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung olahraga STIMLOG dan POLTEKPOS",
-                "category": "Bangunan Kampus",
-                "tipe": "Fasilitas Olahraga",
-                "keterangan": "Gedung olahraga serbaguna STIMLOG dan POLTEKPOS (ULBI)."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575506,
-                            -6.872549
-                        ],
-                        [
-                            107.575461,
-                            -6.87302
-                        ],
-                        [
-                            107.575838,
-                            -6.873055
-                        ],
-                        [
-                            107.575883,
-                            -6.872594
-                        ],
-                        [
-                            107.575506,
-                            -6.872549
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "gedung asrama putri anggrek",
-                "category": "Bangunan Kampus",
-                "tipe": "Asrama Mahasiswa",
-                "keterangan": "Gedung asrama tempat tinggal mahasiswa/i di kawasan kampus ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576761,
-                            -6.872755
-                        ],
-                        [
-                            107.576673,
-                            -6.872787
-                        ],
-                        [
-                            107.576663,
-                            -6.872939
-                        ],
-                        [
-                            107.576725,
-                            -6.873017
-                        ],
-                        [
-                            107.576985,
-                            -6.873055
-                        ],
-                        [
-                            107.577024,
-                            -6.872794
-                        ],
-                        [
-                            107.576761,
-                            -6.872755
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "lapang tennis poltekpos",
-                "category": "Bangunan Kampus",
-                "tipe": "Fasilitas Olahraga",
-                "keterangan": "Sarana olahraga tenis bagi sivitas akademika."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575992,
-                            -6.873097
-                        ],
-                        [
-                            107.575984,
-                            -6.873192
-                        ],
-                        [
-                            107.576095,
-                            -6.873211
-                        ],
-                        [
-                            107.576109,
-                            -6.87308
-                        ],
-                        [
-                            107.576042,
-                            -6.873063
-                        ],
-                        [
-                            107.576038,
-                            -6.873106
-                        ],
-                        [
-                            107.575992,
-                            -6.873097
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "pandopo",
-                "category": "Bangunan Kampus",
-                "tipe": "Fasilitas Pertemuan",
-                "keterangan": "Ruang pertemuan, seminar wisuda, dan pentas seni kampus."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576567,
-                            -6.873463
-                        ],
-                        [
-                            107.576558,
-                            -6.873493
-                        ],
-                        [
-                            107.576641,
-                            -6.873505
-                        ],
-                        [
-                            107.576631,
-                            -6.873571
-                        ],
-                        [
-                            107.576831,
-                            -6.873594
-                        ],
-                        [
-                            107.576847,
-                            -6.873496
-                        ],
-                        [
-                            107.576567,
-                            -6.873463
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "koperasi dan kantin ulbi",
-                "category": "Bangunan Kampus",
-                "tipe": "Fasilitas Niaga & Kuliner",
-                "keterangan": "Pusat belanja kebutuhan mahasiswa dan kuliner kampus."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576497,
-                            -6.87353
-                        ],
-                        [
-                            107.576488,
-                            -6.873613
-                        ],
-                        [
-                            107.576577,
-                            -6.87363
-                        ],
-                        [
-                            107.576592,
-                            -6.873546
-                        ],
-                        [
-                            107.576497,
-                            -6.87353
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "praktek fakultas vokasi ulbi",
-                "category": "Bangunan Kampus",
-                "tipe": "Gedung Perkuliahan & Praktikum",
-                "keterangan": "Gedung perkuliahan, laboratorium, dan praktikum program studi."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575031,
-                            -6.873742
-                        ],
-                        [
-                            107.575028,
-                            -6.873817
-                        ],
-                        [
-                            107.575023,
-                            -6.873852
-                        ],
-                        [
-                            107.575012,
-                            -6.87395
-                        ],
-                        [
-                            107.575144,
-                            -6.873964
-                        ],
-                        [
-                            107.575185,
-                            -6.873989
-                        ],
-                        [
-                            107.575175,
-                            -6.874066
-                        ],
-                        [
-                            107.575344,
-                            -6.874091
-                        ],
-                        [
-                            107.575351,
-                            -6.874014
-                        ],
-                        [
-                            107.575358,
-                            -6.873947
-                        ],
-                        [
-                            107.575408,
-                            -6.873953
-                        ],
-                        [
-                            107.575417,
-                            -6.87386
-                        ],
-                        [
-                            107.575187,
-                            -6.873825
-                        ],
-                        [
-                            107.575189,
-                            -6.873754
-                        ],
-                        [
-                            107.575031,
-                            -6.873742
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "asrama putri gandaria",
-                "category": "Bangunan Kampus",
-                "tipe": "Asrama Mahasiswa",
-                "keterangan": "Gedung asrama tempat tinggal mahasiswa/i di kawasan kampus ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575174,
-                            -6.873195
-                        ],
-                        [
-                            107.575138,
-                            -6.873454
-                        ],
-                        [
-                            107.57513,
-                            -6.87346
-                        ],
-                        [
-                            107.575126,
-                            -6.873508
-                        ],
-                        [
-                            107.575128,
-                            -6.873514
-                        ],
-                        [
-                            107.575116,
-                            -6.873582
-                        ],
-                        [
-                            107.575175,
-                            -6.873596
-                        ],
-                        [
-                            107.575189,
-                            -6.873526
-                        ],
-                        [
-                            107.5752,
-                            -6.873513
-                        ],
-                        [
-                            107.575203,
-                            -6.873467
-                        ],
-                        [
-                            107.575176,
-                            -6.873465
-                        ],
-                        [
-                            107.575178,
-                            -6.87346
-                        ],
-                        [
-                            107.575186,
-                            -6.87341
-                        ],
-                        [
-                            107.575208,
-                            -6.873411
-                        ],
-                        [
-                            107.575232,
-                            -6.873259
-                        ],
-                        [
-                            107.575212,
-                            -6.873254
-                        ],
-                        [
-                            107.575218,
-                            -6.873203
-                        ],
-                        [
-                            107.575174,
-                            -6.873195
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "parkiran dan sekretariat",
-                "category": "Bangunan Kampus",
-                "tipe": "Area Parkir",
-                "keterangan": "Area parkir kendaraan roda dua dan roda empat."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.57549,
-                            -6.873907
-                        ],
-                        [
-                            107.575401,
-                            -6.874212
-                        ],
-                        [
-                            107.575654,
-                            -6.874311
-                        ],
-                        [
-                            107.575728,
-                            -6.873965
-                        ],
-                        [
-                            107.57549,
-                            -6.873907
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "parkiran motor dan mobil ulbi",
-                "category": "Bangunan Kampus",
-                "tipe": "Area Parkir",
-                "keterangan": "Area parkir kendaraan roda dua dan roda empat."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575892,
-                            -6.87413
-                        ],
-                        [
-                            107.575874,
-                            -6.87428
-                        ],
-                        [
-                            107.575958,
-                            -6.874296
-                        ],
-                        [
-                            107.575989,
-                            -6.874144
-                        ],
-                        [
-                            107.575892,
-                            -6.87413
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "kantor pos pusdiklatpos",
-                "category": "Bangunan Kampus",
-                "tipe": "Gedung Administrasi",
-                "keterangan": "Pusat layanan administrasi, pimpinan, dan birokrasi kampus."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576208,
-                            -6.873203
-                        ],
-                        [
-                            107.5762,
-                            -6.873233
-                        ],
-                        [
-                            107.57625,
-                            -6.873244
-                        ],
-                        [
-                            107.576254,
-                            -6.873213
-                        ],
-                        [
-                            107.576208,
-                            -6.873203
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Gedung Perpustakaan & Learning Center ULBI",
-                "category": "Bangunan Kampus",
-                "tipe": "Perpustakaan & Riset",
-                "keterangan": "Pusat referensi ilmiah, jurnal logistik, dan ruang belajar mandiri digital."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576275,
-                            -6.87422
-                        ],
-                        [
-                            107.575948,
-                            -6.874829
-                        ],
-                        [
-                            107.576112,
-                            -6.874917
-                        ],
-                        [
-                            107.57643,
-                            -6.87431
-                        ],
-                        [
-                            107.576275,
-                            -6.87422
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Pasar Sarijadi",
-                "category": "",
-                "tipe": "",
-                "keterangan": ""
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.576658,
-                            -6.873632
-                        ],
-                        [
-                            107.576617,
-                            -6.873804
-                        ],
-                        [
-                            107.576737,
-                            -6.873826
-                        ],
-                        [
-                            107.576763,
-                            -6.873658
-                        ],
-                        [
-                            107.576658,
-                            -6.873632
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Gedung Student Center (PKM ULBI)",
-                "category": "Bangunan Kampus",
-                "tipe": "Kegiatan Mahasiswa",
-                "keterangan": "Sekretariat BEM, Himpunan Mahasiswa, dan ruang ekspresi UKM."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            107.575967,
-                            -6.874067
-                        ],
-                        [
-                            107.5759,
-                            -6.874067
-                        ],
-                        [
-                            107.5759,
-                            -6.874128
-                        ],
-                        [
-                            107.575967,
-                            -6.874128
-                        ],
-                        [
-                            107.575967,
-                            -6.874067
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Pos Satpam & Keamanan Gerbang Utama",
-                "category": "Bangunan Kampus",
-                "tipe": "Keamanan",
-                "keterangan": "Pos komando pengamanan dan pemantauan pintu masuk utama kampus Jl. Sariasih."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575832,
-                        -6.874455
-                    ],
-                    [
-                        107.575854,
-                        -6.874416
-                    ],
-                    [
-                        107.575815,
-                        -6.874221
-                    ],
-                    [
-                        107.57586,
-                        -6.874029
-                    ],
-                    [
-                        107.576332,
-                        -6.873696
-                    ],
-                    [
-                        107.576402,
-                        -6.873584
-                    ],
-                    [
-                        107.576492,
-                        -6.873037
-                    ],
-                    [
-                        107.576572,
-                        -6.873016
-                    ],
-                    [
-                        107.576621,
-                        -6.872935
-                    ],
-                    [
-                        107.57677,
-                        -6.872123
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "jalan jalan yuk",
-                "category": "Jalan & Jalur",
-                "tipe": "Jalur Jalan Kampus",
-                "keterangan": "Jalur akses sirkulasi lalu lintas dan pejalan kaki di kampus ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575917,
-                        -6.873987
-                    ],
-                    [
-                        107.575493,
-                        -6.873883
-                    ],
-                    [
-                        107.575421,
-                        -6.873811
-                    ],
-                    [
-                        107.575239,
-                        -6.873783
-                    ],
-                    [
-                        107.575152,
-                        -6.873591
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "jalan ke parkiran",
-                "category": "Jalan & Jalur",
-                "tipe": "Jalur Jalan Kampus",
-                "keterangan": "Jalur akses sirkulasi lalu lintas dan pejalan kaki di kampus ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.576488,
-                        -6.873036
-                    ],
-                    [
-                        107.576007,
-                        -6.872974
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "jalan ke masjid dan parkiran motor anak fltb",
-                "category": "Jalan & Jalur",
-                "tipe": "Jalur Jalan Kampus",
-                "keterangan": "Jalur akses sirkulasi lalu lintas dan pejalan kaki di kampus ULBI."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.574457,
-                        -6.874376
-                    ],
-                    [
-                        107.575175,
-                        -6.874677
-                    ],
-                    [
-                        107.575741,
-                        -6.874927
-                    ],
-                    [
-                        107.576426,
-                        -6.875254
-                    ],
-                    [
-                        107.578028,
-                        -6.875951
-                    ],
-                    [
-                        107.580544,
-                        -6.876999
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Jalan Raya Sari Asih (Akses Depan Kampus)",
-                "category": "Jalan & Jalur",
-                "tipe": "Jalan Protokol",
-                "keterangan": "Jalan utama akses penghubung kawasan kampus ULBI Sarijadi dengan Kota Bandung."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575641,
-                        -6.874867
-                    ],
-                    [
-                        107.575722,
-                        -6.874685
-                    ],
-                    [
-                        107.575787,
-                        -6.874471
-                    ],
-                    [
-                        107.575845,
-                        -6.874415
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Boulevard Utama Masuk Kampus ULBI",
-                "category": "Jalan & Jalur",
-                "tipe": "Boulevard Kampus",
-                "keterangan": "Jalan masuk utama gerbang depan menuju bundaran rektorat dengan jalur hijau."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.574241,
-                        -6.87427
-                    ],
-                    [
-                        107.574667,
-                        -6.873826
-                    ],
-                    [
-                        107.574932,
-                        -6.87339
-                    ],
-                    [
-                        107.57501,
-                        -6.873076
-                    ],
-                    [
-                        107.575018,
-                        -6.872713
-                    ],
-                    [
-                        107.574899,
-                        -6.872338
-                    ],
-                    [
-                        107.574823,
-                        -6.872144
-                    ],
-                    [
-                        107.574708,
-                        -6.872102
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Jalan Lingkar Kampus Sisi Barat",
-                "category": "Jalan & Jalur",
-                "tipe": "Jalan Lingkar",
-                "keterangan": "Jalur lingkar barat yang menghubungkan asrama gandaria dan fasilitas parkir barat."
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.577204,
-                        -6.872227
-                    ],
-                    [
-                        107.57715,
-                        -6.8725
-                    ],
-                    [
-                        107.577034,
-                        -6.873155
-                    ],
-                    [
-                        107.576883,
-                        -6.873557
-                    ],
-                    [
-                        107.577099,
-                        -6.87379
-                    ]
-                ]
-            },
-            "properties": {
-                "name": "Jalan Lingkar Kampus Sisi Timur",
-                "category": "Jalan & Jalur",
-                "tipe": "Jalan Lingkar",
-                "keterangan": "Akses sisi timur kampus membentang dari komplek olahraga hingga perumahan Sarijadi."
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sariasih III"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.576244,
-                        -6.875169
-                    ],
-                    [
-                        107.575973,
-                        -6.875855
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan tirtasari 1"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575612,
-                        -6.874883
-                    ],
-                    [
-                        107.575109,
-                        -6.875865
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sarimanah 2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575094,
-                        -6.875865
-                    ],
-                    [
-                        107.574871,
-                        -6.876434
-                    ],
-                    [
-                        107.574884,
-                        -6.876547
-                    ],
-                    [
-                        107.57495,
-                        -6.876646
-                    ],
-                    [
-                        107.579287,
-                        -6.878613
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan tirtasari I"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575392,
-                        -6.875257
-                    ],
-                    [
-                        107.574286,
-                        -6.874762
-                    ],
-                    [
-                        107.574181,
-                        -6.874766
-                    ],
-                    [
-                        107.574028,
-                        -6.875048
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan tirtasari III"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.575062,
-                        -6.875864
-                    ],
-                    [
-                        107.574918,
-                        -6.876033
-                    ],
-                    [
-                        107.57403,
-                        -6.875638
-                    ],
-                    [
-                        107.573921,
-                        -6.875486
-                    ],
-                    [
-                        107.573917,
-                        -6.875356
-                    ],
-                    [
-                        107.574035,
-                        -6.87516
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan tirtasari II"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.5752,
-                        -6.875634
-                    ],
-                    [
-                        107.574028,
-                        -6.875144
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sari rasa"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.580097,
-                        -6.876849
-                    ],
-                    [
-                        107.578549,
-                        -6.880377
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sarimanah"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.578335,
-                        -6.876088
-                    ],
-                    [
-                        107.577531,
-                        -6.877861
-                    ],
-                    [
-                        107.576782,
-                        -6.879621
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sarijadi raya"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.579233,
-                        -6.87645
-                    ],
-                    [
-                        107.580161,
-                        -6.874406
-                    ],
-                    [
-                        107.580398,
-                        -6.873216
-                    ],
-                    [
-                        107.580787,
-                        -6.871652
-                    ],
-                    [
-                        107.58091,
-                        -6.870528
-                    ],
-                    [
-                        107.580964,
-                        -6.870321
-                    ],
-                    [
-                        107.581279,
-                        -6.869871
-                    ],
-                    [
-                        107.581467,
-                        -6.869859
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sarimanah 1"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.578526,
-                        -6.880359
-                    ],
-                    [
-                        107.576789,
-                        -6.879635
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sarimanis"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.573901,
-                        -6.878266
-                    ],
-                    [
-                        107.576785,
-                        -6.879608
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sarkasih I"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.578329,
-                        -6.876075
-                    ],
-                    [
-                        107.579316,
-                        -6.873839
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "jalan sariasih 2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        107.578658,
-                        -6.875307
-                    ],
-                    [
-                        107.577566,
-                        -6.874797
-                    ],
-                    [
-                        107.577552,
-                        -6.874706
-                    ],
-                    [
-                        107.577698,
-                        -6.87441
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "masjid alfalah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.575689,
-                    -6.875606
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Universitas Logistik dan Bisnis International"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.575886,
-                    -6.873298
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "puskesmas sarijadi"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577352,
-                    -6.875413
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "masjid baitul a'la"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.57792,
-                    -6.875236
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "kosan faidil ulbi d4ti"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.575331,
-                    -6.874584
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Kost Putri La Lumière"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.574953,
-                    -6.874469
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "donsu"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577233,
-                    -6.878806
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "d'okeh"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577486,
-                    -6.87766
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "labbaik fredciken"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577268,
-                    -6.8782
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "mixue eskrim china"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577299,
-                    -6.87813
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "graha sarimanah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.578894,
-                    -6.877476
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "sd"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.57662,
-                    -6.876773
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "rumah bersalin muhammadiah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.576584,
-                    -6.877615
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "al azhar"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.574528,
-                    -6.876162
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "politeknik negri bandung"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.572487,
-                    -6.871948
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "bengkel ahas"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.578077,
-                    -6.876862
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "ayam bersih berkah"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577859,
-                    -6.876867
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "lapang voly"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.577286,
-                    -6.876794
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "warnet"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.576199,
-                    -6.875072
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "laundri"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    107.576566,
-                    -6.875351
-                ]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575541,
+              -6.873691
+            ],
+            [
+              107.575507,
+              -6.873866
+            ],
+            [
+              107.575821,
+              -6.873925
+            ],
+            [
+              107.575853,
+              -6.873746
+            ],
+            [
+              107.575541,
+              -6.873691
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung rekrorat",
+        "kategori": "Pendidikan dan Administrasi",
+        "tipe": "Gedung Rektorat",
+        "keterangan": "Pusat birokrasi, rektorat, dan administrasi utama Universitas Logistik dan Bisnis Internasional."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575253,
+              -6.873216
+            ],
+            [
+              107.575226,
+              -6.873588
+            ],
+            [
+              107.575791,
+              -6.873625
+            ],
+            [
+              107.575814,
+              -6.873265
+            ],
+            [
+              107.575253,
+              -6.873216
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung vokasi",
+        "kategori": "Pendidikan dan Akademik",
+        "tipe": "Gedung Perkuliahan dan Lab",
+        "keterangan": "Gedung perkuliahan, laboratorium komputer, dan praktikum program studi vokasi ULBI."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576162,
+              -6.872481
+            ],
+            [
+              107.5761,
+              -6.872945
+            ],
+            [
+              107.576447,
+              -6.872999
+            ],
+            [
+              107.576512,
+              -6.872541
+            ],
+            [
+              107.576162,
+              -6.872481
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung FLTB",
+        "kategori": "Pendidikan dan Akademik",
+        "tipe": "Fakultas Logistik dan Bisnis",
+        "keterangan": "Gedung perkuliahan Fakultas Logistik, Teknologi, dan Bisnis (FLTB) ULBI."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575896,
+              -6.872941
+            ],
+            [
+              107.575967,
+              -6.872952
+            ],
+            [
+              107.575975,
+              -6.872889
+            ],
+            [
+              107.576013,
+              -6.872883
+            ],
+            [
+              107.576037,
+              -6.87279
+            ],
+            [
+              107.576064,
+              -6.872763
+            ],
+            [
+              107.576105,
+              -6.872677
+            ],
+            [
+              107.57601,
+              -6.872631
+            ],
+            [
+              107.575968,
+              -6.872716
+            ],
+            [
+              107.575941,
+              -6.872768
+            ],
+            [
+              107.575915,
+              -6.872861
+            ],
+            [
+              107.575911,
+              -6.87288
+            ],
+            [
+              107.575896,
+              -6.872941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "masjid nurul ilmi",
+        "kategori": "Fasilitas Peribadatan",
+        "tipe": "Masjid Kampus",
+        "keterangan": "Masjid utama kampus ULBI untuk kegiatan ibadah shalat dan pembinaan keagamaan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576811,
+              -6.872177
+            ],
+            [
+              107.576747,
+              -6.872626
+            ],
+            [
+              107.577074,
+              -6.87268
+            ],
+            [
+              107.577135,
+              -6.872227
+            ],
+            [
+              107.576811,
+              -6.872177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung asrama putra raflesia",
+        "kategori": "Akomodasi dan Hunian",
+        "tipe": "Asrama Mahasiswa Putra",
+        "keterangan": "Asrama tempat tinggal mahasiswa putra di kawasan kampus ULBI."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.57602,
+              -6.873283
+            ],
+            [
+              107.575971,
+              -6.873659
+            ],
+            [
+              107.576225,
+              -6.873702
+            ],
+            [
+              107.576278,
+              -6.87332
+            ],
+            [
+              107.57602,
+              -6.873283
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung auditorium",
+        "kategori": "Fasilitas Publik dan Pertemuan",
+        "tipe": "Gedung Serbaguna",
+        "keterangan": "Gedung pertemuan besar untuk wisuda, seminar nasional, pameran, dan pentas seni."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576536,
+              -6.873159
+            ],
+            [
+              107.576507,
+              -6.873439
+            ],
+            [
+              107.576818,
+              -6.873474
+            ],
+            [
+              107.576849,
+              -6.873203
+            ],
+            [
+              107.576536,
+              -6.873159
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung olahraga STIMLOG dan POLTEKPOS",
+        "kategori": "Fasilitas Olahraga",
+        "tipe": "Gelanggang Olahraga (GOR)",
+        "keterangan": "Fasilitas olahraga indoor untuk bulu tangkis, futsal, dan kegiatan fisik mahasiswa."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575506,
+              -6.872549
+            ],
+            [
+              107.575461,
+              -6.87302
+            ],
+            [
+              107.575838,
+              -6.873055
+            ],
+            [
+              107.575883,
+              -6.872594
+            ],
+            [
+              107.575506,
+              -6.872549
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "gedung asrama putri anggrek",
+        "kategori": "Akomodasi dan Hunian",
+        "tipe": "Asrama Mahasiswi Putri",
+        "keterangan": "Asrama khusus tempat tinggal mahasiswi putri di dalam lingkungan kampus."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576761,
+              -6.872755
+            ],
+            [
+              107.576673,
+              -6.872787
+            ],
+            [
+              107.576663,
+              -6.872939
+            ],
+            [
+              107.576725,
+              -6.873017
+            ],
+            [
+              107.576985,
+              -6.873055
+            ],
+            [
+              107.577024,
+              -6.872794
+            ],
+            [
+              107.576761,
+              -6.872755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "lapang tennis poltekpos",
+        "kategori": "Fasilitas Olahraga",
+        "tipe": "Lapangan Tenis Outdoor",
+        "keterangan": "Sarana olahraga tenis lapangan terbuka untuk mahasiswa, dosen, dan staf."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575992,
+              -6.873097
+            ],
+            [
+              107.575984,
+              -6.873192
+            ],
+            [
+              107.576095,
+              -6.873211
+            ],
+            [
+              107.576109,
+              -6.87308
+            ],
+            [
+              107.576042,
+              -6.873063
+            ],
+            [
+              107.576038,
+              -6.873106
+            ],
+            [
+              107.575992,
+              -6.873097
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "pandopo",
+        "kategori": "Fasilitas Publik dan Pertemuan",
+        "tipe": "Pendopo Kampus",
+        "keterangan": "Ruang terbuka beratap untuk diskusi mahasiswa, latihan kesenian, dan kumpul organisasi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576567,
+              -6.873463
+            ],
+            [
+              107.576558,
+              -6.873493
+            ],
+            [
+              107.576641,
+              -6.873505
+            ],
+            [
+              107.576631,
+              -6.873571
+            ],
+            [
+              107.576831,
+              -6.873594
+            ],
+            [
+              107.576847,
+              -6.873496
+            ],
+            [
+              107.576567,
+              -6.873463
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "koperasi dan kantin ulbi",
+        "kategori": "Fasilitas Niaga dan Konsumsi",
+        "tipe": "Kantin dan Koperasi",
+        "keterangan": "Pusat kuliner mahasiswa dan koperasi penjualan kebutuhan perkuliahan."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576497,
+              -6.87353
+            ],
+            [
+              107.576488,
+              -6.873613
+            ],
+            [
+              107.576577,
+              -6.87363
+            ],
+            [
+              107.576592,
+              -6.873546
+            ],
+            [
+              107.576497,
+              -6.87353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "praktek fakultas vokasi ulbi",
+        "kategori": "Pendidikan dan Praktikum",
+        "tipe": "Bengkel dan Studio Praktik",
+        "keterangan": "Ruang praktikum terapan dan laboratorium simulasi bisnis logistik vokasi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575031,
+              -6.873742
+            ],
+            [
+              107.575028,
+              -6.873817
+            ],
+            [
+              107.575023,
+              -6.873852
+            ],
+            [
+              107.575012,
+              -6.87395
+            ],
+            [
+              107.575144,
+              -6.873964
+            ],
+            [
+              107.575185,
+              -6.873989
+            ],
+            [
+              107.575175,
+              -6.874066
+            ],
+            [
+              107.575344,
+              -6.874091
+            ],
+            [
+              107.575351,
+              -6.874014
+            ],
+            [
+              107.575358,
+              -6.873947
+            ],
+            [
+              107.575408,
+              -6.873953
+            ],
+            [
+              107.575417,
+              -6.87386
+            ],
+            [
+              107.575187,
+              -6.873825
+            ],
+            [
+              107.575189,
+              -6.873754
+            ],
+            [
+              107.575031,
+              -6.873742
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "asrama putri gandaria",
+        "kategori": "Akomodasi dan Hunian",
+        "tipe": "Asrama Mahasiswi Putri",
+        "keterangan": "Gedung asrama mahasiswi putri unit Gandaria di sayap barat kampus."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575174,
+              -6.873195
+            ],
+            [
+              107.575138,
+              -6.873454
+            ],
+            [
+              107.57513,
+              -6.87346
+            ],
+            [
+              107.575126,
+              -6.873508
+            ],
+            [
+              107.575128,
+              -6.873514
+            ],
+            [
+              107.575116,
+              -6.873582
+            ],
+            [
+              107.575175,
+              -6.873596
+            ],
+            [
+              107.575189,
+              -6.873526
+            ],
+            [
+              107.5752,
+              -6.873513
+            ],
+            [
+              107.575203,
+              -6.873467
+            ],
+            [
+              107.575176,
+              -6.873465
+            ],
+            [
+              107.575178,
+              -6.87346
+            ],
+            [
+              107.575186,
+              -6.87341
+            ],
+            [
+              107.575208,
+              -6.873411
+            ],
+            [
+              107.575232,
+              -6.873259
+            ],
+            [
+              107.575212,
+              -6.873254
+            ],
+            [
+              107.575218,
+              -6.873203
+            ],
+            [
+              107.575174,
+              -6.873195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "parkiran dan sekretariat",
+        "kategori": "Fasilitas Umum dan Parkir",
+        "tipe": "Area Parkir dan Sekretariat",
+        "keterangan": "Area parkir kendaraan roda dua dan ruang sekretariat lembaga mahasiswa."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.57549,
+              -6.873907
+            ],
+            [
+              107.575401,
+              -6.874212
+            ],
+            [
+              107.575654,
+              -6.874311
+            ],
+            [
+              107.575728,
+              -6.873965
+            ],
+            [
+              107.57549,
+              -6.873907
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "parkiran motor dan mobil ulbi",
+        "kategori": "Fasilitas Umum dan Parkir",
+        "tipe": "Area Parkir Terpadu",
+        "keterangan": "Lahan parkir kendaraan bermotor roda dua dan roda empat warga kampus."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575892,
+              -6.87413
+            ],
+            [
+              107.575874,
+              -6.87428
+            ],
+            [
+              107.575958,
+              -6.874296
+            ],
+            [
+              107.575989,
+              -6.874144
+            ],
+            [
+              107.575892,
+              -6.87413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "kantor pos pusdiklatpos",
+        "kategori": "Layanan Publik dan Pos",
+        "tipe": "Kantor Pos dan Pusdiklat",
+        "keterangan": "Kantor layanan Pos Indonesia dan pusat pendidikan dan pelatihan pos (Pusdiklatpos)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576208,
+              -6.873203
+            ],
+            [
+              107.5762,
+              -6.873233
+            ],
+            [
+              107.57625,
+              -6.873244
+            ],
+            [
+              107.576254,
+              -6.873213
+            ],
+            [
+              107.576208,
+              -6.873203
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gedung Perpustakaan & Learning Center ULBI",
+        "kategori": "Pendidikan dan Riset",
+        "tipe": "Perpustakaan Kampus",
+        "keterangan": "Pusat referensi literatur ilmiah, jurnal logistik, dan ruang belajar mandiri digital."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576275,
+              -6.87422
+            ],
+            [
+              107.575948,
+              -6.874829
+            ],
+            [
+              107.576112,
+              -6.874917
+            ],
+            [
+              107.57643,
+              -6.87431
+            ],
+            [
+              107.576275,
+              -6.87422
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pasar Sarijadi",
+        "kategori": "Fasilitas Niaga dan Perbelanjaan",
+        "tipe": "Pasar Tradisional dan Modern",
+        "keterangan": "Pusat perbelanjaan kebutuhan pokok dan kuliner warga serta mahasiswa di Sarijadi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.576658,
+              -6.873632
+            ],
+            [
+              107.576617,
+              -6.873804
+            ],
+            [
+              107.576737,
+              -6.873826
+            ],
+            [
+              107.576763,
+              -6.873658
+            ],
+            [
+              107.576658,
+              -6.873632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gedung Student Center (PKM ULBI)",
+        "kategori": "Kegiatan Mahasiswa",
+        "tipe": "Student Center (PKM)",
+        "keterangan": "Gedung pusat kegiatan mahasiswa, sekretariat BEM, DPM, dan Unit Kegiatan Mahasiswa."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.575967,
+              -6.874067
+            ],
+            [
+              107.5759,
+              -6.874067
+            ],
+            [
+              107.5759,
+              -6.874128
+            ],
+            [
+              107.575967,
+              -6.874128
+            ],
+            [
+              107.575967,
+              -6.874067
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pos Satpam & Keamanan Gerbang Utama",
+        "kategori": "Keamanan dan Pengawasan",
+        "tipe": "Pos Keamanan / Security",
+        "keterangan": "Pos pengamanan gerbang utama akses masuk kampus ULBI di Jl. Sariasih."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575832,
+            -6.874455
+          ],
+          [
+            107.575854,
+            -6.874416
+          ],
+          [
+            107.575815,
+            -6.874221
+          ],
+          [
+            107.57586,
+            -6.874029
+          ],
+          [
+            107.576332,
+            -6.873696
+          ],
+          [
+            107.576402,
+            -6.873584
+          ],
+          [
+            107.576492,
+            -6.873037
+          ],
+          [
+            107.576572,
+            -6.873016
+          ],
+          [
+            107.576621,
+            -6.872935
+          ],
+          [
+            107.57677,
+            -6.872123
+          ]
+        ]
+      },
+      "properties": {
+        "name": "jalan jalan yuk",
+        "kategori": "Aksesibilitas dan Sirkulasi",
+        "tipe": "Jalan Lingkungan Kampus",
+        "keterangan": "Jalur jalan sirkulasi penghubung dari gerbang timur ke area asrama dan GOR."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575917,
+            -6.873987
+          ],
+          [
+            107.575493,
+            -6.873883
+          ],
+          [
+            107.575421,
+            -6.873811
+          ],
+          [
+            107.575239,
+            -6.873783
+          ],
+          [
+            107.575152,
+            -6.873591
+          ]
+        ]
+      },
+      "properties": {
+        "name": "jalan ke parkiran",
+        "kategori": "Aksesibilitas dan Sirkulasi",
+        "tipe": "Jalan Akses Parkir",
+        "keterangan": "Jalur masuk kendaraan menuju area parkir utama rektorat dan asrama barat."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.576488,
+            -6.873036
+          ],
+          [
+            107.576007,
+            -6.872974
+          ]
+        ]
+      },
+      "properties": {
+        "name": "jalan ke masjid dan parkiran motor anak fltb",
+        "kategori": "Aksesibilitas dan Sirkulasi",
+        "tipe": "Jalur Penghubung Internal",
+        "keterangan": "Jalan penghubung antara gedung FLTB, parkiran motor, dan Masjid Nurul Ilmi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.574457,
+            -6.874376
+          ],
+          [
+            107.575175,
+            -6.874677
+          ],
+          [
+            107.575741,
+            -6.874927
+          ],
+          [
+            107.576426,
+            -6.875254
+          ],
+          [
+            107.578028,
+            -6.875951
+          ],
+          [
+            107.580544,
+            -6.876999
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Raya Sari Asih (Akses Depan Kampus)",
+        "kategori": "Jalan Utama / Protokol",
+        "tipe": "Jalan Arteri Sekunder",
+        "keterangan": "Jalan utama akses penghubung kawasan kampus ULBI Sarijadi dengan pusat kota Bandung."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575641,
+            -6.874867
+          ],
+          [
+            107.575722,
+            -6.874685
+          ],
+          [
+            107.575787,
+            -6.874471
+          ],
+          [
+            107.575845,
+            -6.874415
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Boulevard Utama Masuk Kampus ULBI",
+        "kategori": "Jalan Utama Kampus",
+        "tipe": "Boulevard Masuk",
+        "keterangan": "Jalur boulevard gerbang depan dengan pembatas jalan menuju bundaran rektorat."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.574241,
+            -6.87427
+          ],
+          [
+            107.574667,
+            -6.873826
+          ],
+          [
+            107.574932,
+            -6.87339
+          ],
+          [
+            107.57501,
+            -6.873076
+          ],
+          [
+            107.575018,
+            -6.872713
+          ],
+          [
+            107.574899,
+            -6.872338
+          ],
+          [
+            107.574823,
+            -6.872144
+          ],
+          [
+            107.574708,
+            -6.872102
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Lingkar Kampus Sisi Barat",
+        "kategori": "Jalan Lingkar Kampus",
+        "tipe": "Jalan Sirkulasi Barat",
+        "keterangan": "Jalur lingkar barat yang menghubungkan Asrama Gandaria dengan area vokasi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.577204,
+            -6.872227
+          ],
+          [
+            107.57715,
+            -6.8725
+          ],
+          [
+            107.577034,
+            -6.873155
+          ],
+          [
+            107.576883,
+            -6.873557
+          ],
+          [
+            107.577099,
+            -6.87379
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jalan Lingkar Kampus Sisi Timur",
+        "kategori": "Jalan Lingkar Kampus",
+        "tipe": "Jalan Sirkulasi Timur",
+        "keterangan": "Akses sisi timur kampus membentang dari komplek olahraga hingga perumahan Sarijadi."
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sariasih III",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Akses jalan lingkungan perumahan warga dan kos mahasiswa di samping kampus."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.576244,
+            -6.875169
+          ],
+          [
+            107.575973,
+            -6.875855
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan tirtasari 1",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalan perumahan Tirtasari yang menghubungkan hunian warga dan kos mahasiswa."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575612,
+            -6.874883
+          ],
+          [
+            107.575109,
+            -6.875865
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sarimanah 2",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalan perumahan Sarimanah blok 2 di kawasan pemukiman Sarijadi."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575094,
+            -6.875865
+          ],
+          [
+            107.574871,
+            -6.876434
+          ],
+          [
+            107.574884,
+            -6.876547
+          ],
+          [
+            107.57495,
+            -6.876646
+          ],
+          [
+            107.579287,
+            -6.878613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan tirtasari I",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalur akses komplek Tirtasari barat menuju koridor Jl. Sari Asih."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575392,
+            -6.875257
+          ],
+          [
+            107.574286,
+            -6.874762
+          ],
+          [
+            107.574181,
+            -6.874766
+          ],
+          [
+            107.574028,
+            -6.875048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan tirtasari III",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalan penghubung blok hunian di kawasan perumahan Tirtasari."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575062,
+            -6.875864
+          ],
+          [
+            107.574918,
+            -6.876033
+          ],
+          [
+            107.57403,
+            -6.875638
+          ],
+          [
+            107.573921,
+            -6.875486
+          ],
+          [
+            107.573917,
+            -6.875356
+          ],
+          [
+            107.574035,
+            -6.87516
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan tirtasari II",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Akses alternatif pemukiman dan kontrakan mahasiswa di Sarijadi."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5752,
+            -6.875634
+          ],
+          [
+            107.574028,
+            -6.875144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sari rasa",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalan permukiman Sari Rasa dengan deretan warung kuliner mahasiswa."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.580097,
+            -6.876849
+          ],
+          [
+            107.578549,
+            -6.880377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sarimanah",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Kolektor Lingkungan",
+        "keterangan": "Jalan utama kawasan Sarimanah penghubung Jl. Sarijadi Raya dengan Sari Asih."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.578335,
+            -6.876088
+          ],
+          [
+            107.577531,
+            -6.877861
+          ],
+          [
+            107.576782,
+            -6.879621
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sarijadi raya",
+        "kategori": "Jalan Utama / Protokol",
+        "tipe": "Jalan Kolektor Primer",
+        "keterangan": "Jalan raya arteri kawasan Sarijadi yang ramai pertokoan dan transportasi umum."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.579233,
+            -6.87645
+          ],
+          [
+            107.580161,
+            -6.874406
+          ],
+          [
+            107.580398,
+            -6.873216
+          ],
+          [
+            107.580787,
+            -6.871652
+          ],
+          [
+            107.58091,
+            -6.870528
+          ],
+          [
+            107.580964,
+            -6.870321
+          ],
+          [
+            107.581279,
+            -6.869871
+          ],
+          [
+            107.581467,
+            -6.869859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sarimanah 1",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalan permukiman Sarimanah blok 1 dengan akses dekat ke minimarket."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.578526,
+            -6.880359
+          ],
+          [
+            107.576789,
+            -6.879635
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sarimanis",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalur perumahan Sarimanis asri yang berdekatan dengan komplek pendidikan."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.573901,
+            -6.878266
+          ],
+          [
+            107.576785,
+            -6.879608
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sarkasih I",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Akses jalan pemukiman warga sekitar kawasan timur kampus ULBI."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.578329,
+            -6.876075
+          ],
+          [
+            107.579316,
+            -6.873839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "jalan sariasih 2",
+        "kategori": "Jalan Lingkungan / Pemukiman",
+        "tipe": "Jalan Lingkungan",
+        "keterangan": "Jalan pemukiman Sari Asih 2 berhadapan langsung dengan gerbang samping kampus."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.578658,
+            -6.875307
+          ],
+          [
+            107.577566,
+            -6.874797
+          ],
+          [
+            107.577552,
+            -6.874706
+          ],
+          [
+            107.577698,
+            -6.87441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "masjid alfalah",
+        "kategori": "Fasilitas Peribadatan",
+        "tipe": "Masjid",
+        "keterangan": "Masjid Al-Falah sarana ibadah masyarakat dan mahasiswa di lingkungan Sarijadi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.575689,
+          -6.875606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Logistik dan Bisnis International",
+        "kategori": "Pendidikan dan Akademik",
+        "tipe": "Pusat Kampus",
+        "keterangan": "Titik utama gerbang dan patok sentral kampus Universitas Logistik dan Bisnis Internasional."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.575886,
+          -6.873298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "puskesmas sarijadi",
+        "kategori": "Layanan Kesehatan",
+        "tipe": "Puskesmas",
+        "keterangan": "Pusat Kesehatan Masyarakat (Puskesmas) Sarijadi melayani pengobatan warga dan mahasiswa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577352,
+          -6.875413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "masjid baitul a'la",
+        "kategori": "Fasilitas Peribadatan",
+        "tipe": "Masjid",
+        "keterangan": "Masjid Baitul A'la sarana shalat berjamaah dan kajian warga Sarimanah."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57792,
+          -6.875236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "kosan faidil ulbi d4ti",
+        "kategori": "Akomodasi dan Hunian",
+        "tipe": "Kos Mahasiswa",
+        "keterangan": "Rumah sewa kos hunian mahasiswa prodi D4 Teknik Informatika ULBI."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.575331,
+          -6.874584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kost Putri La Lumière",
+        "kategori": "Akomodasi dan Hunian",
+        "tipe": "Kos Mahasiswi",
+        "keterangan": "Hunian indekos khusus mahasiswi berfasilitas lengkap dekat kampus ULBI."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.574953,
+          -6.874469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "donsu",
+        "kategori": "Kuliner dan Jajanan",
+        "tipe": "Kedai Makanan / Donat",
+        "keterangan": "Gerai kuliner donat dan jajanan manis favorit mahasiswa di sekitar kampus."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577233,
+          -6.878806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "d'okeh",
+        "kategori": "Kuliner dan Jajanan",
+        "tipe": "Kafe / Tempat Makan",
+        "keterangan": "Kafe dan tempat santai berkumpul mahasiswa untuk berdiskusi tugas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577486,
+          -6.87766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "labbaik fredciken",
+        "kategori": "Kuliner dan Jajanan",
+        "tipe": "Restoran Cepat Saji",
+        "keterangan": "Restoran ayam goreng krispi Labbaik Chicken di Jl. Sarijadi Raya."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577268,
+          -6.8782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "mixue eskrim china",
+        "kategori": "Kuliner dan Minuman",
+        "tipe": "Gerai Es Krim dan Minuman",
+        "keterangan": "Gerai waralaba es krim dan minuman segar teh buah Mixue Sarijadi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577299,
+          -6.87813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "graha sarimanah",
+        "kategori": "Fasilitas Publik dan Pertemuan",
+        "tipe": "Gedung Serbaguna",
+        "keterangan": "Gedung pertemuan Graha Sarimanah untuk kegiatan warga, resepsi, dan seminar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.578894,
+          -6.877476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "sd",
+        "kategori": "Pendidikan Dasar",
+        "tipe": "Sekolah Dasar (SD)",
+        "keterangan": "Sekolah dasar negeri/swasta di kawasan permukiman Sarijadi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57662,
+          -6.876773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "rumah bersalin muhammadiah",
+        "kategori": "Layanan Kesehatan",
+        "tipe": "Klinik dan Rumah Bersalin",
+        "keterangan": "Klinik bersalin dan pelayanan kesehatan ibu dan anak Muhammadiyah Sarijadi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.576584,
+          -6.877615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "al azhar",
+        "kategori": "Pendidikan dan Agama",
+        "tipe": "Kompleks Pendidikan Islam",
+        "keterangan": "Kompleks sekolah Islam Al Azhar menyelenggarakan jenjang pendidikan dasar-menengah."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.574528,
+          -6.876162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "politeknik negri bandung",
+        "kategori": "Pendidikan dan Akademik",
+        "tipe": "Perguruan Tinggi",
+        "keterangan": "Kampus Politeknik Negeri Bandung (Polban) di kawasan perbatasan Ciwaruga-Sarijadi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.572487,
+          -6.871948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bengkel ahas",
+        "kategori": "Otomotif dan Servis",
+        "tipe": "Bengkel Resmi Motor",
+        "keterangan": "Bengkel resmi Astra Honda Authorized Service Station (AHASS) servis motor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.578077,
+          -6.876862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ayam bersih berkah",
+        "kategori": "Kuliner dan Makanan",
+        "tipe": "Restoran Ayam",
+        "keterangan": "Rumah makan Ayam Bersih Berkah (ABB) pilihan makanan hemat mahasiswa."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577859,
+          -6.876867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "lapang voly",
+        "kategori": "Fasilitas Olahraga",
+        "tipe": "Lapangan Voli",
+        "keterangan": "Sarana olahraga bola voli terbuka untuk pemuda dan warga sekitar Sarijadi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.577286,
+          -6.876794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "warnet",
+        "kategori": "Layanan Digital dan Internet",
+        "tipe": "Warnet dan Rental Komputer",
+        "keterangan": "Warung internet, rental komputer, serta layanan cetak dokumen dan jilid tugas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.576199,
+          -6.875072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "laundri",
+        "kategori": "Jasa dan Layanan",
+        "tipe": "Jasa Cuci Pakaian / Laundry",
+        "keterangan": "Jasa laundry kiloan dan dry cleaning pakaian untuk mahasiswa dan warga sekitar."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.576566,
+          -6.875351
+        ]
+      }
+    }
+  ]
 }

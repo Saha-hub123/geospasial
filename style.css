@@ -1,248 +1,377 @@
 /* ==========================================================================
-   CrootJS GeoJSON Map - Tampilan Modern & Elegan (Tidak Kaku)
+   SIG Kampus ULBI - Modern Minimalist Style (CrootJS)
+   Clean, aesthetic, lightweight & zero external CSS dependencies
    ========================================================================== */
 
 :root {
-    --primary: #2563eb;
-    --primary-hover: #1d4ed8;
-    --primary-light: #eff6ff;
-    --slate-900: #0f172a;
-    --slate-800: #1e293b;
-    --slate-700: #334155;
-    --slate-600: #475569;
-    --slate-500: #64748b;
-    --slate-400: #94a3b8;
-    --slate-300: #cbd5e1;
-    --slate-200: #e2e8f0;
-    --slate-100: #f1f5f9;
-    --slate-50: #f8fafc;
-    --radius-sm: 8px;
-    --radius-md: 12px;
-    --radius-lg: 16px;
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --bg-hover: #f8fafc;
+  
+  --border-color: #e2e8f0;
+  --border-focus: #3b82f6;
+  
+  --text-main: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-light: #eff6ff;
+  --accent-border: #bfdbfe;
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  
+  --shadow-subtle: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
 }
 
 *, *::before, *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", Helvetica, Arial, sans-serif;
-    background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
-    margin: 0;
-    padding: 36px 16px;
-    color: var(--slate-800);
-    min-height: 100vh;
-    line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", Helvetica, Arial, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Kartu Utama */
-.card {
-    background-color: #ffffff;
-    max-width: 840px;
-    margin: 0 auto;
-    padding: 36px 32px;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
-    border: 1px solid rgba(226, 232, 240, 0.85);
+.app-layout {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 36px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
-.card h1 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    text-align: center;
-    color: var(--slate-900);
-    font-size: 25px;
-    font-weight: 700;
-    letter-spacing: -0.025em;
+/* Header */
+.app-header {
+  text-align: center;
 }
 
-.lead {
-    color: var(--slate-500);
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 28px;
-    font-size: 14.5px;
+.header-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  background-color: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
 }
 
-/* Bagian Section */
-.demo {
-    border-top: 1px solid var(--slate-200);
-    padding-top: 18px;
-    margin-bottom: 18px;
+.app-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
 }
 
-.demo h2 {
-    font-size: 15.5px;
-    font-weight: 600;
-    color: var(--slate-800);
-    margin: 0 0 6px;
-}
-
-.demo p {
-    color: var(--slate-500);
-    font-size: 13.5px;
-    margin: 0 0 12px;
+.subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
 }
 
 code {
-    background-color: var(--primary-light);
-    color: var(--primary);
-    border: 1px solid #dbeafe;
-    border-radius: 4px;
-    padding: 2px 6px;
-    font-size: 13px;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  background-color: var(--bg-subtle);
+  color: var(--accent);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12.5px;
 }
 
-/* Input Baris & Tombol */
-.input-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+/* Main Card */
+.main-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.input-row input {
-    flex: 1 1 280px;
-    min-width: 0;
-    padding: 10px 14px;
-    border: 1.5px solid var(--slate-300);
-    border-radius: var(--radius-sm);
-    font-size: 14px;
-    color: var(--slate-800);
-    background-color: #fff;
-    outline: none;
-    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+/* Control Panel */
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.input-row input:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+.panel-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
 }
 
-/* Input File */
-input[type="file"] {
-    font-size: 13.5px;
-    color: var(--slate-600);
+.url-input-group {
+  flex: 1 1 360px;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 4px 6px 4px 12px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-input[type="file"]::file-selector-button {
-    padding: 8px 16px;
-    background-color: var(--slate-100);
-    color: var(--slate-700);
-    border: 1px solid var(--slate-300);
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 13px;
-    margin-right: 12px;
-    transition: background-color 0.15s ease, border-color 0.15s ease;
+.url-input-group:focus-within {
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
 }
 
-input[type="file"]::file-selector-button:hover {
-    background-color: var(--slate-200);
-    border-color: var(--slate-400);
+.input-icon {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-right: 8px;
+  user-select: none;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: var(--primary);
-    color: #fff;
-    border: none;
-    border-radius: var(--radius-sm);
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+.url-input-group input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13.5px;
+  color: var(--text-main);
 }
 
-button:hover {
-    background-color: var(--primary-hover);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px -2px rgba(37, 99, 235, 0.3);
+.url-input-group button {
+  padding: 8px 16px;
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
 }
 
-button:active {
-    transform: translateY(0);
+.url-input-group button:hover {
+  background-color: var(--accent-hover);
 }
 
-/* Kotak Output & Status */
-.result {
-    display: block;
-    margin: 20px 0 16px;
-    padding: 12px 16px;
-    background-color: var(--primary-light);
-    border: 1px solid #bfdbfe;
-    border-left: 4px solid var(--primary);
-    border-radius: var(--radius-sm);
-    font-size: 13.5px;
-    font-weight: 500;
-    color: #1e40af;
+/* File Upload Button */
+.file-upload-group {
+  position: relative;
 }
 
-.demo .result {
-    margin: 0;
-    background-color: var(--slate-50);
-    border: 1px solid var(--slate-200);
-    border-left: 4px solid var(--slate-400);
-    color: var(--slate-700);
+.file-upload-group input[type="file"] {
+  position: absolute;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  z-index: -1;
 }
 
-/* Wadah Peta CrootJS */
-.map {
-    position: relative;
-    height: 420px;
-    margin-bottom: 20px;
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    border: 1px solid var(--slate-200);
-    box-shadow: 0 4px 12px -2px rgba(15, 23, 42, 0.06);
+.file-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
 }
 
-/* Wadah Tabel Data */
-.table-wrap {
-    overflow-x: auto;
-    max-height: 420px;
-    overflow-y: auto;
-    margin-top: 16px;
-    border: 1px solid var(--slate-200);
-    border-radius: var(--radius-sm);
+.file-label:hover {
+  background-color: #e2e8f0;
+  color: var(--text-main);
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13.5px;
+.file-icon {
+  font-size: 13px;
 }
 
-thead {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background-color: var(--slate-100);
+/* Status Bar */
+.status-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  background-color: var(--accent-light);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 500;
+  color: #1d4ed8;
 }
 
-th,
-td {
-    padding: 10px 14px;
-    border-bottom: 1px solid var(--slate-200);
-    text-align: left;
-    white-space: nowrap;
+/* Map Section */
+.map-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-th {
-    color: var(--slate-700);
-    font-weight: 600;
-    letter-spacing: 0.01em;
+/* CrootJS map requires position relative & explicit height */
+.map-view {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  box-shadow: var(--shadow-subtle);
 }
 
-tbody tr {
-    transition: background-color 0.12s ease;
+.map-info-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 9px 12px;
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #fafbfc;
+.map-info-label {
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
-tbody tr:hover {
-    background-color: #f1f5f9;
+.map-info-value {
+  color: var(--text-main);
+}
+
+/* Table Section */
+.table-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.table-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.table-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.table-subtext {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-card);
+}
+
+.minimal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  text-align: left;
+}
+
+.minimal-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #f1f5f9;
+}
+
+.minimal-table th {
+  padding: 10px 14px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.minimal-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+  white-space: nowrap;
+}
+
+.minimal-table tbody tr {
+  transition: background-color 0.1s ease;
+}
+
+.minimal-table tbody tr:hover {
+  background-color: var(--bg-hover);
+}
+
+.minimal-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.app-footer a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Custom Polish for CrootJS Map Popups */
+.crootjs-map-popup {
+  font-family: inherit !important;
+  font-size: 12.5px !important;
+  border-radius: var(--radius-md) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+@media (max-width: 640px) {
+  .app-layout {
+    padding: 20px 12px;
+  }
+  .main-card {
+    padding: 16px;
+  }
+  .map-view {
+    height: 360px;
+  }
 }
