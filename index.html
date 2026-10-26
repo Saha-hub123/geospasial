@@ -3,204 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SIG Map ULBI - Peta Interaktif CrootJS</title>
-  <meta name="description" content="Peta Sistem Informasi Geografis Kampus ULBI Bandung menggunakan library CrootJS (map.js) tanpa framework peta eksternal seperti Leaflet.">
+  <title>GeoJSON di Peta + CrootJS</title>
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="index.js"></script>
 </head>
 <body>
 
-  <!-- Site Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <div class="brand-section">
-        <div class="brand-icon">🗺️</div>
-        <div class="brand-info">
-          <h1>Peta Kampus ULBI Bandung</h1>
-          <p>Sistem Informasi Geografis Kampus ULBI Jl. Sariasih No. 54, Sukasari, Kota Bandung</p>
-        </div>
-      </div>
-      <div class="header-badges">
-        <a href="https://croot.js.org/" target="_blank" rel="noopener" class="pill-badge">
-          ⚡ Powered by CrootJS (map.js)
-        </a>
-        <span class="pill-badge">
-          🚀 GitHub Pages Ready
-        </span>
-        <span class="pill-badge">
-          ✨ Zero Map Library
-        </span>
-      </div>
-    </div>
-  </header>
+  <main class="card">
+    <h1>GeoJSON di Peta + CrootJS</h1>
+    <p class="lead">
+      <code>geo.js</code> mengambil dan memvalidasi datanya, <code>map.js</code>
+      menggambarnya di peta — tanpa library peta eksternal.
+    </p>
 
-  <!-- Main Content -->
-  <main class="main-content">
-
-    <!-- Statistics Cards -->
-    <section class="stats-grid" aria-label="Statistik Fitur Peta">
-      <div class="stat-card">
-        <div class="stat-icon icon-blue">📊</div>
-        <div class="stat-details">
-          <span class="stat-value" id="stat-total">75</span>
-          <span class="stat-label">Total Fitur Spasial</span>
-        </div>
-      </div>
-
-      <div class="stat-card">
-        <div class="stat-icon icon-green">🏛️</div>
-        <div class="stat-details">
-          <span class="stat-value" id="stat-polygons">25</span>
-          <span class="stat-label">Poligon Bangunan</span>
-        </div>
-      </div>
-
-      <div class="stat-card">
-        <div class="stat-icon icon-road">🛣️</div>
-        <div class="stat-details">
-          <span class="stat-value" id="stat-lines">25</span>
-          <span class="stat-label">Polyline Jalan / Jalur</span>
-        </div>
-      </div>
-
-      <div class="stat-card">
-        <div class="stat-icon icon-red">📍</div>
-        <div class="stat-details">
-          <span class="stat-value" id="stat-points">25</span>
-          <span class="stat-label">Titik Lokasi / POI</span>
-        </div>
+    <section class="demo">
+      <h2>1. Dari URL</h2>
+      <p><code>getGeoJSON()</code> — link halaman file GitHub (<code>/blob/</code>) boleh dipakai langsung.</p>
+      <div class="input-row">
+        <input id="url" type="url" value="./update.geojson">
+        <button id="btn-load">Muat</button>
       </div>
     </section>
 
-    <!-- Map Section Card -->
-    <section class="map-card" aria-label="Peta Interaktif">
-      <!-- Toolbar -->
-      <div class="map-toolbar">
-        <div class="filter-group">
-          <button type="button" class="filter-btn active" data-filter="all" id="filter-all">
-            🌐 Semua (<span id="count-all">75</span>)
-          </button>
-          <button type="button" class="filter-btn" data-filter="Polygon" id="filter-polygon">
-            🏛️ Bangunan (<span id="count-polygon">25</span>)
-          </button>
-          <button type="button" class="filter-btn" data-filter="LineString" id="filter-line">
-            🛣️ Jalan (<span id="count-line">25</span>)
-          </button>
-          <button type="button" class="filter-btn" data-filter="Point" id="filter-point">
-            📍 Titik POI (<span id="count-point">25</span>)
-          </button>
-        </div>
-
-        <div class="toolbar-actions">
-          <button type="button" class="action-btn" id="btn-fit-map" title="Pusatkan peta ke semua data">
-            🎯 Reset Zoom
-          </button>
-          <button type="button" class="action-btn action-btn-primary" id="btn-download" title="Unduh data GeoJSON saat ini">
-            💾 Unduh GeoJSON
-          </button>
-        </div>
-      </div>
-
-      <!-- Map Display Container -->
-      <div class="map-container-wrap">
-        <div id="map"></div>
-      </div>
-
-      <!-- Coordinate Picker / Click Info Bar -->
-      <div class="click-info-bar">
-        <div class="coord-display">
-          <span>📍 <strong>Info Klik / Titik Koordinat:</strong></span>
-          <span id="click-info" class="coord-tag">Klik di mana saja pada peta untuk melihat koordinat</span>
-        </div>
-        <button type="button" class="copy-btn" id="btn-copy-coord" style="display: none;">
-          📋 Salin Koordinat
-        </button>
-      </div>
+    <section class="demo">
+      <h2>2. Dari file lokal</h2>
+      <p><code>readGeoJSONFile()</code> membaca file yang dipilih, tanpa mengunggahnya ke mana pun.</p>
+      <input id="file" type="file" accept=".geojson,.json">
     </section>
 
-    <!-- Content Grid: Data Source & Table -->
-    <div class="content-grid">
+    <output id="status" class="result">Belum ada data.</output>
 
-      <!-- Data Table Card -->
-      <section class="table-card" aria-label="Daftar Data Geospasial">
-        <div class="table-header">
-          <div class="table-title-area">
-            <h2>Daftar Objek Geospasial ULBI</h2>
-            <p>Data fitur jalan, gedung, fasilitas dan titik POI di sekitar kampus</p>
-          </div>
-          <div class="search-box-wrap">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="search-input" class="search-input" placeholder="Cari gedung, jalan, atau fasilitas...">
-          </div>
-        </div>
+    <div id="map" class="map"></div>
 
-        <div class="table-responsive">
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th style="width: 50px;">#</th>
-                <th>Nama Objek</th>
-                <th>Geometri</th>
-                <th>Kategori & Tipe</th>
-                <th>Keterangan</th>
-                <th style="text-align: center; width: 120px;">Aksi</th>
-              </tr>
-            </thead>
-            <tbody id="table-body">
-              <!-- Rendered via JavaScript -->
-            </tbody>
-          </table>
-        </div>
-      </section>
+    <section class="demo">
+      <h2>3. Klik peta</h2>
+      <p><code>onMapClick()</code> memberi koordinat titik yang diklik, dan fiturnya kalau ada yang kena.</p>
+      <output id="click" class="result">Belum ada klik.</output>
+    </section>
 
-      <!-- Data Source Accordion Card -->
-      <section class="accordion-card">
-        <h3 class="accordion-title">📂 Pengaturan & Sumber Data GeoJSON</h3>
-        <div class="sources-grid">
-          <!-- Load URL -->
-          <div class="source-box">
-            <h4>1. Muat dari URL / Repositori GitHub</h4>
-            <p>Mendukung link langsung raw GeoJSON atau link GitHub (/blob/) via <code>getGeoJSON()</code>.</p>
-            <div class="input-with-button">
-              <input type="url" id="custom-url-input" value="./714240013_mohammadisa_sig_mapulbi.geojson" placeholder="https://... atau ./data.geojson">
-              <button type="button" class="action-btn action-btn-primary" id="btn-load-url">Muat URL</button>
-            </div>
-          </div>
-
-          <!-- Load Local File -->
-          <div class="source-box">
-            <h4>2. Muat dari File Komputer (Lokal)</h4>
-            <p>Membaca file GeoJSON lokal secara instan di peramban via <code>readGeoJSONFile()</code>.</p>
-            <div class="file-input-wrapper">
-              <input type="file" id="local-file-input" accept=".geojson,.json">
-            </div>
-          </div>
-        </div>
-      </section>
-
+    <div class="table-wrap">
+      <table>
+        <thead id="head"></thead>
+        <tbody id="rows"></tbody>
+      </table>
     </div>
-
   </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-info">
-        <p><strong>SIG Map ULBI Bandung</strong> — Dibuat untuk tugas Sistem Informasi Geografis.</p>
-        <p>Slippy Map murni berbasis SVG & Tile OpenStreetMap menggunakan CrootJS tanpa Leaflet.</p>
-      </div>
-      <div class="footer-links">
-        <a href="https://croot.js.org/" target="_blank" rel="noopener">Dokumentasi CrootJS</a>
-        <a href="https://github.com/petapedia" target="_blank" rel="noopener">Petapedia</a>
-        <a href="https://www.ulbi.ac.id/" target="_blank" rel="noopener">Situs Resmi ULBI</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Toast Element -->
-  <div id="toast" class="toast">Notifikasi</div>
-
-  <!-- Main ES Module Script -->
-  <script type="module" src="index.js"></script>
 
 </body>
 </html>
